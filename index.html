@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meet & Coffe</title>
+    <link rel= 'shortcut icon' type='image/png' href='./assets/img/favicon.png'/>
+    <meta name= 'author' content='A Isabel Siles'>
+    <meta name='description' content='Mi primera web: Comparte tus conocimiento tomando un café'>
+    <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel='stylesheet' href='assets/css/style.css'>
+</head>
+<body>
+    <!--MENÚ usando NAV para dividir la primera sección, PROPORCIONA ENLACES PARA NAVEGAR POR EL SITIO-->
+    <nav class="oscuro">
+        <ul>
+            <li class='icono'><a href='#home'><img src='assets/img/coffee-cup.svg'></a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#proxima-charla">Próxima charla</a></li>
+            <li><a href="#eventos-anteriores">Eventos Anteriores</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <header id='inicio' class='hero-section'>
+        <!-- imagen de fondo que llamaremos en el css a traves de background-->
+        <h1>Descubre lo último en tecnología bebiendo café</h1>
+        <h2 class='subtitulo'>Charlas, eventos y simposios sobre tecnología</h2>
+    </header>
+
+    <section id='ubicacion'>
+         <!--texto ubicacion evento-->
+        <img src='assets/img/we-work.jpg' alt="foto edificio We Work">
+        <h2>¿Dónde nos juntamos?</h2>
+        <p>Todos los martes y miéroles de 19:00 a 22:00 en We Work, calle Baker 133, Providencia, Santiago</p>
+    </section>
+
+    <section id='proxima-charla' class='sweet-brown'>
+        <div class='centrado'>
+            <img src='assets/img/speaker.jpg' alt="foto Rafaella" class='charla-speaker'>
+             <!-- texto próxima charla-->
+            <div class='charla-texto'>
+                <h2>Próxima charla</h2>
+                <h3>Big Data para Noobs</h3>
+                <h4>Rafaella Valdés</h4>
+                <h5>Data Scientist, PhD Therorical Physics, Carneige Mellon University</h5>
+                <p>En esta charla reevisaremos las técnicas y tecnologías que hacen que sea económico hacer frente a los datos
+                de una escala extrema.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id='eventos'>
+        <!--Texto eventos anteriores-->
+        <h2>Eventos anteriores</h2>
+         <article class='evento'>
+            <img src='assets/img/simposio-vegan.jpg' alt='chico laptop'>
+            <h3><a href="eventos01.html">Simposio Vegan DB</a></h3>
+        </article>
+
+        <article class='evento'>
+            <img src='assets/img/machine-learning.jpg' alt='chica escribiendo'>
+            <h3>Machine Learning 101</h3>
+        </article>
+
+        <article class='evento'>
+            <img src="assets/img/scrum-sin-scream.jpg" alt='chico viendo pizarra'>
+            <h3>Scrum sin scream</h3>
+        </article>
+    </section>
+
+    <footer class="oscuro">
+        <a href="https://github.com"><i class="fab fa-github-square fa-5x"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-5x"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-5x"></i></a>
+        <p>Meet & Coffe 2021. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
